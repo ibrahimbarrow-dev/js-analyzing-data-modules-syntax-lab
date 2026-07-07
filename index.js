@@ -1,4 +1,4 @@
-
+require('datejs');
 
 
 module.exports = {
