@@ -12,6 +12,9 @@ function combineUsers(...args) {
     combinedObject.users.push(...userArray);
   }
 
+  // Add merge_date using datejs formatting
+  combinedObject.merge_date = Date.today().toString('M/d/yyyy');
+
   return combinedObject;
 }
 
